@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "scripts": {
+    "to-es6": "scripts/convert-to-es6.sh",
+    "serve": "node ./src/serve.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "java-parser": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup": "^2.33.3"
+  }
+}
